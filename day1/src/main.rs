@@ -1,5 +1,4 @@
-use std::fs;
-use std::io::{self, Read};
+use common::load_input;
 
 const INPUT_FILE: &str = "input.txt";
 
@@ -21,13 +20,6 @@ impl ParseI32 for &str {
     fn parse_i32(&self) -> i32 {
         self.parse::<i32>().unwrap()
     }
-}
-
-fn load_input() -> io::Result<String> {
-    let mut file = fs::File::open(INPUT_FILE)?;
-    let mut contents = String::new();
-    file.read_to_string(&mut contents)?;
-    Ok(contents)
 }
 
 fn get_line_vector(index: usize, lines: &Vec<Vec<&str>>) -> Vec<i32> {
@@ -63,7 +55,7 @@ fn similarity_score(left: Vec<i32>, right: Vec<i32>) -> i32 {
 }
 
 fn main() {
-    let input = match load_input() {
+    let input = match load_input(INPUT_FILE) {
         Ok(input) => input,
         Err(e) => {
             eprintln!("Error loading input: {}", e);
