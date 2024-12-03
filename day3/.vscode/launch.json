@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/jose.padilla/Desktop/work/advent_of_code_2024/day3",
+      "program": "/Users/jose.padilla/Desktop/work/advent_of_code_2024/day3/build/Debug/outDebug"
+    }
+  ]
+}
