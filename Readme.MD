@@ -5,3 +5,6 @@
 #### Day 4 (rust) ⭐️⭐️
 #### Day 5 (c++) ⭐️⭐️
 #### Day 6 (rust) ⭐️⭐️
+#### Day 7 (rust) ⭐️⭐️
+#### Day 8 (rust) ⭐️⭐️
+#### Day 9 (rust) ⭐️⭐️
