@@ -8,3 +8,4 @@
 #### Day 7 (rust) ⭐️⭐️
 #### Day 8 (rust) ⭐️⭐️
 #### Day 9 (rust) ⭐️⭐️
+#### Day 10 (rust) ⭐️⭐️
