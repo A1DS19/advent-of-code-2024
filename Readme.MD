@@ -17,3 +17,4 @@
 #### Day 16 (rust) ⭐️⭐️
 #### Day 17 (rust) ⭐️⭐️
 #### Day 18 (rust) ⭐️⭐️
+#### Day 19 (rust) ⭐️⭐️
